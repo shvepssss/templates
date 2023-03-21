@@ -1,0 +1,27 @@
+﻿  main.cpp
+C:\Users\user\source\repos\templates\tepmplates52\tepmplates52\main.cpp(20,22): error C2668: max: неоднозначный вызов перегруженной функции
+C:\Users\user\source\repos\templates\tepmplates52\tepmplates52\main.cpp(8,10): message : может быть "const T &max<T>(const T &,const T &)"
+          with
+          [
+              T=int
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\utility(41,6): message : или       "const _Ty &std::max<T>(const _Ty &,const _Ty &) noexcept(<expr>)"
+          with
+          [
+              _Ty=int,
+              T=int
+          ]
+C:\Users\user\source\repos\templates\tepmplates52\tepmplates52\main.cpp(19,1): message : при попытке сопоставить список аргументов "(const T, const T)"
+          with
+          [
+              T=int
+          ]
+C:\Users\user\source\repos\templates\tepmplates52\tepmplates52\main.cpp(25): message : выполняется компиляция ссылки на экземпляр шаблон функции "const T &max<int>(const T &,const T &,const T &)"
+          with
+          [
+              T=int
+          ]
+C:\Users\user\source\repos\templates\tepmplates52\tepmplates52\main.cpp(20,18): error C2672: "ref": не найдена соответствующая перегруженная функция
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\type_traits(1914,48): message : может быть "std::reference_wrapper<_Ty> std::ref(std::reference_wrapper<_Ty>) noexcept"
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\type_traits(1911,6): message : или       "void std::ref(const _Ty &&)"
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\type_traits(1906,48): message : или       "std::reference_wrapper<_Ty> std::ref(_Ty &) noexcept"
