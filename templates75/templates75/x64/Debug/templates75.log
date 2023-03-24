@@ -1,0 +1,9 @@
+﻿  main.cpp
+C:\Users\user\source\repos\templates\templates75\templates75\main.cpp(10,8): error C2955: "Stack": для использования класс шаблон требуется список аргументов шаблон
+C:\Users\user\source\repos\templates\templates75\templates75\stack4.h(6): message : см. объявление "Stack"
+C:\Users\user\source\repos\templates\templates75\templates75\main.cpp(10,19): error C2514: "Stack": невозможно создать шаблон класса.
+C:\Users\user\source\repos\templates\templates75\templates75\stack4.h(6): message : см. объявление "Stack"
+C:\Users\user\source\repos\templates\templates75\templates75\main.cpp(11,22): error C2662: const T &Stack<T>::top(void) const: невозможно преобразовать указатель "this" из "Stack" в "const Stack<T> &"
+C:\Users\user\source\repos\templates\templates75\templates75\main.cpp(11,22): message : Причина: невозможно преобразовать "Stack" в "const Stack<T>"
+C:\Users\user\source\repos\templates\templates75\templates75\main.cpp(11,10): message : Для преобразования требуется второй оператор пользовательского преобразования или конструктор
+C:\Users\user\source\repos\templates\templates75\templates75\stack4.h(17,11): message : см. объявление "Stack<T>::top"

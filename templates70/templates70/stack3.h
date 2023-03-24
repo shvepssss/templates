@@ -1,9 +1,13 @@
 #pragma once
 #include <vector>
 
-using namespace std;
+/**
+* Шаблонный псевдоним. лучше через using вместо typedef, чтобы можно было t выполнять инстанцирование
+*/
+template <typename T>
+using StackVec = std::vector<T>;
 
-template <typename T, typename cont = vector <T>>
+template <typename T, typename cont = StackVec <T>>
 class Stack {
 private:
 	cont elems;
